@@ -4,7 +4,7 @@ import {
   SimpleForm,
 } from "react-admin";
 
-export const InboxItemsEdit = () => (
+export const OutboxClassesEdit = () => (
   <Edit>
       <SimpleForm>
           <BooleanInput source="polling_enabled" />

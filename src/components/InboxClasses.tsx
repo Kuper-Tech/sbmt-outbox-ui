@@ -1,6 +1,6 @@
 import { List, Datagrid, TextField } from "react-admin";
 
-export const InboxItemsList = () => (
+export const InboxClassesList = () => (
     <List>
         <Datagrid rowClick="edit">
             <TextField source="name" />
